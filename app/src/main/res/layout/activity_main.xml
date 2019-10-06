@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <Button
+        android:id="@+id/button_kanan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pindah Fragment kanan"
+        android:layout_margin="3dp"
+        android:textAllCaps="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:layout_alignParentLeft="true"
+        android:id="@+id/button_kiri"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pindah Fragment kiri"
+        android:layout_margin="3dp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+
+        />
+        <FrameLayout
+            android:id="@+id/fragment_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+</RelativeLayout>
